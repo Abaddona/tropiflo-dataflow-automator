@@ -53,7 +53,7 @@ const ContactSection = () => {
                     <h4 className="font-medium text-gray-900">Offices</h4>
                     <address className="not-italic text-gray-600">
                       US, Delaware<br />
-                      Israel, TLV
+                      Israel,
                     </address>
                   </div>
                 </div>

@@ -3,24 +3,24 @@ import React from 'react';
 
 const testimonials = [
   {
-    content: "Co-Datascientist has revolutionized our approach to ML development. We've reduced our R&D cycle by 65% while improving model performance across the board.",
+    content: "Co-Datascientist is revolutionizing our approach to ML development. We've reduced our R&D cycle time by more than 60% while improving model performance across the board.",
     author: "Sarah Johnson",
-    position: "Chief Data Officer",
-    company: "TechFusion Inc.",
+    position: "Head of Quantitative analytics",
+    company: "Tech-focused HedgeFund",
     image: "https://randomuser.me/api/portraits/women/23.jpg"
   },
   {
-    content: "As a smaller team with limited resources, TropiFlo's automation capabilities have been a game-changer. We're now able to compete with larger organizations in terms of ML output.",
+    content: "Co-Datascientist is not an optionary tool for our team anymore - It's an integral part of our R&D pipeline. Any ML Engineer that doesn't use it will simply be left behind. ",
     author: "Michael Chang",
     position: "ML Engineering Lead",
-    company: "Innovate AI",
+    company: "Big Firm - AI section",
     image: "https://randomuser.me/api/portraits/men/54.jpg"
   },
   {
-    content: "The automated experimentation features alone saved us months of work. Our data science team can now focus on strategy instead of repetitive testing and tuning.",
+    content: "Thanks to Co-Datascientist we are staying ahead of the curve even against cutting edge FinTech startups. It has revolutionized our R&D process.",
     author: "Elena Rodriguez",
     position: "VP of Data Science",
-    company: "Global Analytics",
+    company: "International Banking Establishment",
     image: "https://randomuser.me/api/portraits/women/63.jpg"
   }
 ];
