@@ -67,7 +67,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 text-cyan-400" />
-                <a href="mailto:info@tropifloai.com" className="text-gray-400 hover:text-cyan-400 transition-colors">info@tropifloai.com</a>
+                <a href="mailto:jonathan.gdalevich@tropifloai.com" className="text-gray-400 hover:text-cyan-400 transition-colors">Contact us</a>
               </li>
               <li className="flex items-center">
                 <PhoneCall size={18} className="mr-2 text-cyan-400" />
