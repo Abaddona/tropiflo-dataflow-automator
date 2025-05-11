@@ -50,10 +50,10 @@ const ContactSection = () => {
                     <MapPin className="h-6 w-6 text-cyan-500" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900">Office</h4>
+                    <h4 className="font-medium text-gray-900">Offices</h4>
                     <address className="not-italic text-gray-600">
-                      123 Innovation Way<br />
-                      San Francisco, CA 94105
+                      US, Delaware<br />
+                      Israel, TLV
                     </address>
                   </div>
                 </div>

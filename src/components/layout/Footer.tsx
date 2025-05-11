@@ -77,8 +77,8 @@ const Footer = () => {
                 <MapPin size={18} className="mr-2 mt-1 text-cyan-400" />
                 <span className="text-gray-400">
                   TropiFlo AI, Inc.<br />
-                  123 Innovation Way<br />
-                  San Francisco, CA 94105
+                  US, Delaware<br />
+                  Israel, TLV
                 </span>
               </li>
             </ul>
