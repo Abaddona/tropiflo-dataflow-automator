@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  //base: "/tropiflo-dataflow-automator/",
+  base: "/tropiflo-dataflow-automator/",
   server: {
     host: "::",
     port: 8080,
