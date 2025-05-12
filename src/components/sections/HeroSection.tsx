@@ -41,7 +41,7 @@ const HeroSection = () => {
             <div className="bg-white p-4 rounded-3xl shadow-xl border border-gray-200">
               <div className="w-full h-64 md:h-80 bg-gray-100 rounded-2xl overflow-hidden">
                 <video 
-                  poster="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                  // poster="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
                   controls
                   className="w-full h-full object-cover"
                   autoPlay
