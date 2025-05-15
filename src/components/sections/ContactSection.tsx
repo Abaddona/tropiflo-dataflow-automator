@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ContactForm from '../ui/ContactForm';
 import { Mail, PhoneCall, MapPin } from 'lucide-react';
@@ -59,7 +58,7 @@ const ContactSection = () => {
                 </div>
               </div>
               
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <h4 className="font-medium text-gray-900 mb-4">Connect with us</h4>
                 <div className="flex space-x-4">
                   {['facebook', 'twitter', 'linkedin', 'github'].map((platform) => (
@@ -75,7 +74,7 @@ const ContactSection = () => {
                     </a>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           
