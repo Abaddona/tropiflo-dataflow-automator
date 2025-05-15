@@ -29,8 +29,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900">Email</h4>
-                    <a href="mailto:jonathan.gdalevich@tropifloai.com" className="text-primary hover:underline">
-                      Contact us
+                    <a>
+                      info@tropiflo.io
                     </a>
                   </div>
                 </div>
