@@ -34,7 +34,8 @@ const Navbar = () => {
     >
       <div className="container-section">
         <nav className="flex items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center space-x-8">
+            <img src="/Logo.png" alt="TropiFlo Logo" className="h-12 w-auto" />
             <a href="/" className="text-2xl md:text-3xl font-bold text-primary">
               <span>Tropi</span>
               <span className="gradient-text">Flo</span>
