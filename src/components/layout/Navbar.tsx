@@ -35,12 +35,10 @@ const Navbar = () => {
       <div className="container-section">
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="/" className="flex items-end text-2xl md:text-3xl font-bold text-primary">
-              <img src="/Logo.png" alt="TropiFlo Logo" className="h-48 w-auto mr-0" />
-              <div className="pb-8">
-                <span>Tropi</span>
-                <span className="gradient-text">Flo</span>
-              </div>
+            <a href="/" className="flex items-center text-2xl md:text-3xl font-bold text-primary">
+              <img src="/Logo.png" alt="TropiFlo Logo" className="h-48 w-auto mr-0 -mt-14" />
+              <span>Tropi</span>
+              <span className="gradient-text">Flo</span>
             </a>
           </div>
           
