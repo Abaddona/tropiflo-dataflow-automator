@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="text-cyan-400">Flo</span>
             </a>
             <p className="mt-4 text-gray-400">
-              Maximizing ML efficiency through intelligent automation. 
+              Maximizing ML efficiency through intelligent automation.
               TropiFlo's Co-Datascientist streamlines your R&D cycle.
             </p>
             <div className="mt-6 flex space-x-4">

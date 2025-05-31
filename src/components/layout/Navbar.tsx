@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -36,7 +35,8 @@ const Navbar = () => {
       <div className="container-section">
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="/" className="text-2xl md:text-3xl font-bold text-primary">
+            <a href="/" className="flex items-center text-2xl md:text-3xl font-bold text-primary">
+              <img src="/Logo.png" alt="TropiFlo Logo" className="h-8 w-8 mr-2" />
               <span>Tropi</span>
               <span className="gradient-text">Flo</span>
             </a>
