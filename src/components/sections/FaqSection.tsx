@@ -10,7 +10,7 @@ import {
 const faqs = [
   {
     question: "What is Co-Datascientist and how does it work?",
-    answer: "Co-Datascientist is an AI-powered platform that automates repetitive tasks in the machine learning R&D cycle. It integrates with your existing ML workflows to handle data preprocessing, feature engineering, model selection, hyperparameter tuning, and result analysis, allowing your data scientists to focus on higher-level strategy and innovation."
+    answer: "Co‑Datascientist is an agentic AI4AI framework that iteratively rewrites, runs and evaluates your ML code until your target KPIs improve. After installation, you can run it via two simple commands: arduino, Copy, Edit, pip install co-datascientist, co-datascientist run --script-path myscript.py. Behind the scenes it: Spins up a local Model‑Context‑Protocol (MCP) server so LLM agents can safely call your code and tools. Reads your script, generates “next‑best” variants, executes them and captures any line you print that starts with KPI:. Each run is saved in a score‑prefixed folder (e.g. 0.9234_random_forest/) so the top performer is obvious. This closed‑loop delivers continuous model improvement without extra orchestration."
   },
   {
     question: "Is Co-Datascientist suitable for small teams?",
