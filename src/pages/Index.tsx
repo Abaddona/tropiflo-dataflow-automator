@@ -3,8 +3,10 @@ import React from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import HeroSection from '@/components/sections/HeroSection';
+import EvolveSection from '@/components/sections/EvolveSection';
 import FeaturesSection from '@/components/sections/FeaturesSection';
 import HowItWorksSection from '@/components/sections/HowItWorksSection';
+import IntegrationsSection from '@/components/sections/IntegrationsSection';
 import PricingSection from '@/components/sections/PricingSection';
 import TeamSection from '@/components/sections/TeamSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
@@ -19,6 +21,8 @@ const Index = () => {
         <HeroSection />
         <FeaturesSection />
         <HowItWorksSection />
+        <EvolveSection />
+        <IntegrationsSection />
         <PricingSection />
         <TeamSection />
         <TestimonialsSection />

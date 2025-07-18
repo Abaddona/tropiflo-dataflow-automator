@@ -5,67 +5,46 @@ import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="pt-28 pb-20 md:pt-36 md:pb-32 overflow-hidden">
+    <section className="flex items-center min-h-[85vh] pt-48 pb-40 md:pt-64 md:pb-52 overflow-hidden">
       <div className="container-section relative">
+        {/* Subtle animated gradient background blob */}
+        <div
+          aria-hidden="true"
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[70vw] h-[70vw] max-w-4xl max-h-[48rem] bg-gradient-to-tr from-cyan-200 via-blue-200 to-purple-200 opacity-30 blur-3xl animate-blob -z-10"
+          style={{ filter: 'blur(100px)' }}
+        />
         {/* Background gradients */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-400/20 rounded-full filter blur-3xl -z-10" />
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-400/10 rounded-full filter blur-2xl -z-10" />
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <div className="text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Meet Your <span className="gradient-text">Co-Datascientist 2</span> for ML Excellence
+        <div className="w-full text-center">
+            <h1 className="flex flex-wrap justify-center items-baseline gap-3 text-center">
+              <span className="text-6xl md:text-7xl font-extrabold text-gray-900">Meet the</span>
+              <span className="text-7xl md:text-8xl lg:text-9xl font-extrabold gradient-text animate-gradient-move">Co-Datascientist</span>
             </h1>
-            
-            <p className="mt-6 text-lg text-gray-600 md:text-xl max-w-lg mx-auto md:mx-0">
-              Maximize R&D efficiency with AI-powered automation. TropiFlo helps ML teams deliver better results faster, no matter your organization's size.
+            <p className="mt-4 text-xl md:text-2xl text-gray-700 font-medium text-center">
+            Built to make you an ML Hero. Co-Datascientist is the best way to build scalalabe AI models.
             </p>
-            
-            <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-              <Button asChild className="btn-primary text-lg px-8 py-6">
+            <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+              <Button asChild className="btn-primary text-2xl px-12 py-8 btn-animated-gradient">
                 <a href="#contact">
-                  Get in Touch
+                  Request a Demo
                   <ArrowRight size={18} className="ml-2" />
                 </a>
               </Button>
-              <Button asChild variant="outline" className="text-lg px-8 py-6">
+              <Button asChild variant="outline" className="text-2xl px-12 py-8">
                 <a href="#how-it-works">
                   How It Works
                 </a>
               </Button>
             </div>
           </div>
-          
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/30 to-blue-600/30 rounded-3xl transform rotate-2 blur-2xl -z-10" />
-            <div className="bg-white p-4 rounded-3xl shadow-xl border border-gray-200">
-              <div className="w-full h-64 md:h-80 bg-gray-100 rounded-2xl overflow-hidden">
-                <video 
-                  // poster="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
-                  controls
-                  className="w-full h-full object-cover"
-                  autoPlay
-                  muted
-                  loop
-                >
-                  <source src="/run_co_data_scientist_5_ideas_paralell.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <div className="p-5">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="font-semibold">Demo</h3>
-                    <p className="text-sm text-gray-500">See Co-Datascientist in action</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* Removed video and its container. Optionally, you can add a placeholder or leave this column empty for layout balance. */}
+          <div className="relative flex items-center justify-center">
+            {/* Optionally, add an illustration or leave empty for now */}
           </div>
         </div>
-      </div>
     </section>
   );
 };
 
 export default HeroSection;
+

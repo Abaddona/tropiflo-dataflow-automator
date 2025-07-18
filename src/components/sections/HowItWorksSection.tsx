@@ -44,7 +44,7 @@ const HowItWorksSection = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <Button asChild className="btn-primary">
+          <Button asChild className="btn-primary btn-animated-gradient text-2xl px-12 py-8">
             <a href="#contact">Get Started Today</a>
           </Button>
         </div>

@@ -28,14 +28,14 @@ const Navbar = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isScrolled 
-          ? "bg-white/90 backdrop-blur-md shadow-sm py-2" 
-          : "bg-transparent py-4"
+          ? "bg-white/90 backdrop-blur-md shadow-sm py-1" 
+          : "bg-transparent py-2"
       )}
     >
       <div className="container-section">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-8">
-            <img src="/Logo.png" alt="TropiFlo Logo" className="h-14 w-auto" />
+            <img src="/Logo.png" alt="TropiFlo Logo" className="h-10 w-auto" />
             <a href="/" className="text-2xl md:text-3xl font-bold text-primary">
               <span>Tropi</span>
               <span className="gradient-text">Flo</span>
@@ -44,16 +44,12 @@ const Navbar = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-700 hover:text-primary transition-colors">Features</a>
-            <a href="#how-it-works" className="text-gray-700 hover:text-primary transition-colors">How it works</a>
-            <a href="#pricing" className="text-gray-700 hover:text-primary transition-colors">Pricing</a>
-            <a href="#team" className="text-gray-700 hover:text-primary transition-colors">Team</a>
-            <a href="#testimonials" className="text-gray-700 hover:text-primary transition-colors">Testimonials</a>
-            <a href="#faq" className="text-gray-700 hover:text-primary transition-colors">FAQ</a>
-            <Button asChild variant="ghost" className="text-gray-700 hover:text-primary">
-              <a href="#contact">Contact</a>
-            </Button>
-            <Button asChild className="btn-primary">
+            <a href="#features" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">Features</a>
+            <a href="#pricing" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">Pricing</a>
+            <a href="#team" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">Team</a>
+            <a href="#testimonials" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">Testimonials</a>
+            <a href="#faq" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">FAQ</a>
+            <Button asChild className="btn-primary btn-animated-gradient text-lg px-6 py-3">
               <a href="#contact">Get in Touch</a>
             </Button>
           </div>
@@ -80,13 +76,6 @@ const Navbar = () => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Features
-              </a>
-              <a 
-                href="#how-it-works" 
-                className="text-gray-700 hover:text-primary transition-colors py-2"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                How it works
               </a>
               <a 
                 href="#pricing" 
@@ -123,7 +112,7 @@ const Navbar = () => {
               >
                 Contact
               </a>
-              <Button asChild className="btn-primary w-full">
+              <Button asChild className="btn-primary btn-animated-gradient w-full text-lg px-6 py-3">
                 <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Get in Touch</a>
               </Button>
             </div>

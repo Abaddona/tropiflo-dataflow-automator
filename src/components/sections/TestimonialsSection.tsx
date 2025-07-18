@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Button } from '@/components/ui/button';
 
 const testimonials = [
   {
@@ -94,12 +95,9 @@ const TestimonialsSection = () => {
                   </p>
                 </div>
                 <div className="flex-shrink-0">
-                  <a 
-                    href="#contact" 
-                    className="inline-block bg-white text-cyan-600 font-semibold px-8 py-4 rounded-lg hover:bg-gray-50 transition-colors"
-                  >
-                    Get in Touch
-                  </a>
+                  <Button asChild className="btn-primary btn-animated-gradient text-2xl px-12 py-8">
+                    <a href="#contact">Get in Touch</a>
+                  </Button>
                 </div>
               </div>
             </div>

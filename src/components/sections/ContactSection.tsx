@@ -80,7 +80,7 @@ const ContactSection = () => {
           
           <div className="lg:col-span-3">
             <div className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-2xl font-semibold mb-6" id="demo">Request a Demo</h3>
+              <h3 className="text-3xl md:text-4xl font-extrabold mb-8 gradient-text animate-gradient-move text-center" id="demo">Request a Demo</h3>
               <ContactForm />
             </div>
           </div>

@@ -23,7 +23,7 @@ const PricingSection = () => {
               <div className="bg-cyan-50 p-3 rounded-lg mr-4">
                 <Cloud className="h-8 w-8 text-cyan-500" />
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold">SaaS</h3>
+              <h3 className="text-2xl md:text-3xl font-bold">Enterprise Cloud Integration</h3>
             </div>
             
             <ul className="space-y-4 mb-8">
@@ -53,7 +53,7 @@ const PricingSection = () => {
               </li>
             </ul>
             
-            <Button asChild className="btn-primary w-full py-6 text-lg">
+            <Button asChild className="btn-primary btn-animated-gradient w-full text-2xl px-12 py-8">
               <a href="#contact">Get in Touch</a>
             </Button>
           </div>
@@ -94,7 +94,7 @@ const PricingSection = () => {
               </li>
             </ul>
             
-            <Button asChild className="btn-primary w-full py-6 text-lg">
+            <Button asChild className="btn-primary btn-animated-gradient w-full text-2xl px-12 py-8">
               <a href="#contact">Get in Touch</a>
             </Button>
           </div>
