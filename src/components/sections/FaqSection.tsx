@@ -10,11 +10,11 @@ import {
 const faqs = [
   {
     question: "What is Co-Datascientist and how does it work?",
-    answer: "Co‑Datascientist is an agentic AI4AI framework that iteratively rewrites, runs and evaluates your ML code until your target KPIs improve. After installation, you can run it via two simple commands: arduino, Copy, Edit, pip install co-datascientist, co-datascientist run --script-path myscript.py. Behind the scenes it: Spins up a local Model‑Context‑Protocol (MCP) server so LLM agents can safely call your code and tools. Reads your script, generates “next‑best” variants, executes them and captures any line you print that starts with KPI:. Each run is saved in a score‑prefixed folder (e.g. 0.9234_random_forest/) so the top performer is obvious. This closed‑loop delivers continuous model improvement without extra orchestration."
+    answer: "Co-Datascientist is an AI4AI platform that successfully automates AI model creation. It seamlessly integrates with your existing ML workflows to handle all your model creation. Check POCs, work on your core products, while saving time, costs and getting better results at the end thus beating your competition - Data in, Novel Models out, it is that simple."
   },
   {
     question: "Is Co-Datascientist suitable for small teams?",
-    answer: "Absolutely! Co-Datascientist is designed to be valuable for ML teams of all sizes. For smaller teams with limited resources, our automation capabilities effectively multiply your productivity, allowing you to compete with larger organizations. The platform scales with your needs and can be customized to your specific workflows."
+    answer: "Absolutely! Co-Datascientist is designed to be valuable for ML teams of all sizes. For smaller teams with limited resources, our automation capabilities effectively multiply your productivity, allowing you to compete with larger organizations, while saving capital on hiring huge ML teams. The platform scales with your needs and can be customized to your specific workflows."
   },
   {
     question: "How does Co-Datascientist integrate with our existing ML infrastructure?",
@@ -22,15 +22,15 @@ const faqs = [
   },
   {
     question: "What kind of efficiency improvements can we expect?",
-    answer: "While results vary by organization, our clients typically report 40-70% reduction in time spent on routine ML tasks. This translates to faster development cycles, more experiments, and ultimately better performing models. Our case studies showcase specific examples of efficiency gains across different industries."
+    answer: "While results vary by organization, Our clients report it takes X5–10 fewer human hours to reach KPIs, Agents automatically explore dozens of hyper‑parameter variants per commit, Near‑instant “best run” discover, Score‑prefixed folders eliminate manual log digging. This translates to faster development cycles, more experiments, and better performing models. Our case studies showcase specific examples of efficiency gains across different industries."
   },
   {
     question: "Is our data safe when using Co-Datascientist?",
-    answer: "Data security is our top priority. Co-Datascientist can be deployed in your own secure environment (on-premises or private cloud), ensuring your sensitive data never leaves your control. We also offer SOC 2 compliant cloud options with strong encryption, access controls, and regular security audits."
+    answer: "Data security is our top priority. Co-Datascientist can be deployed in your own secure environment (on-premises or private cloud), ensuring your sensitive data never leaves your control. Explicit key management – API keys are optional and stored in environment variables or your OS key‑chain; they are never transmitted to third parties."
   },
   {
     question: "How long does implementation take?",
-    answer: "Most organizations can be up and running with Co-Datascientist in 2-4 weeks. The exact timeline depends on the complexity of your existing infrastructure and specific customization needs. Our experienced implementation team will guide you through the process step by step, ensuring minimal disruption to your ongoing projects."
+    answer: "Installation takes up to 10 minutes. Most teams ship their first improved model the same afternoon... The exact timeline depends on the complexity of your existing infrastructure and specific customization needs. Our experienced implementation team will guide you through the process step by step, ensuring minimal disruption to your ongoing projects."
   }
 ];
 
