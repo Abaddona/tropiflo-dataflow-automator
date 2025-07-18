@@ -10,7 +10,7 @@ import {
 const faqs = [
   {
     question: "What is Co-Datascientist and how does it work?",
-    answer: "Co-Datascientist is an AI4AI platform that successfully automates AI model creation. It seamlessly integrates with your existing ML workflows to handle all your model creation. Check POCs, work on your core products, while saving time, costs and getting better results at the end thus beating your competition - Data in, Novel Models out, it is that simple."
+    answer: "Co-Datascientist is an AI4AI platform that successfully automates AI model creation. It seamlessly integrates with your existing ML workflows to handle all your model creation. Explore POCs, work on your core products, while saving time, costs and getting better results at the end thus beating your competition - Data in, Novel Models out, it is that simple."
   },
   {
     question: "Is Co-Datascientist suitable for small teams?",
