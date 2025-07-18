@@ -17,7 +17,7 @@ const HeroSection = () => {
         
         <div className="w-full text-center">
             <h1 className="flex flex-wrap justify-center items-baseline gap-3 text-center">
-              <span className="text-6xl md:text-7xl font-extrabold text-gray-900 font-dmsans">Meet your</span>
+              <span className="text-6xl md:text-7xl font-extrabold text-gray-900 font-dmsans">Meet <span className="underline decoration-2 decoration-blue-600 underline-offset-4">your</span></span>
               <span className="text-7xl md:text-8xl lg:text-9xl font-extrabold gradient-text animate-gradient-move font-dmsans">Co-Datascientist</span>
             </h1>
             <p className="mt-4 text-xl md:text-2xl text-gray-700 font-medium text-center">

@@ -106,12 +106,12 @@ const ContactForm = () => {
         />
       </div>
       <div>
-        <Button 
-          type="submit" 
-          className="btn-primary w-full py-6" 
+        <Button
+          type="submit"
+          className="btn-primary btn-animated-gradient text-2xl px-12 py-8 w-full"
           disabled={loading}
         >
-          {loading ? 'Sending...' : 'Send Message'}
+          {loading ? 'Sending...' : 'Get Research Preview Demo'}
         </Button>
       </div>
     </form>

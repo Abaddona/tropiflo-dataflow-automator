@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const beforeCode = `from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
@@ -68,14 +69,14 @@ print(f'KPI: {accuracy:.4f}')`;
 
 const EvolveSection = () => {
   return (
-    <section id="evolve" className="py-20 bg-gradient-to-b from-white to-gray-50">
+    <section id="evolve" className="py-20 bg-gray-50">
       <div className="container-section">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="section-title">
             Evolve your <span className="gradient-text">ML solution</span> autonomously
           </h2>
           <p className="section-subtitle">
-            See how Co-DataScientist transforms your pipeline from basic to breakthrough—automatically.
+            Co-Datascientist is a KPI fanatic.
           </p>
         </div>
         <div className="overflow-x-auto">
@@ -84,9 +85,9 @@ const EvolveSection = () => {
             <div className="bg-white rounded-xl shadow-md border border-gray-100 p-6 flex flex-col">
               <div className="flex items-center mb-4">
                 <Code className="text-gray-400 mr-2" />
-                <span className="font-bold text-lg">📥 "Meh" Pipeline</span>
+                <span className="font-bold text-lg">📥 Input</span>
               </div>
-              <div className="text-gray-500 text-sm mb-2">KPI ≈ 0.50</div>
+              <div className="text-gray-500 text-2xl font-extrabold mb-2">50% <span className="text-3xl">Accuracy</span></div>
               <pre className="bg-gray-100 rounded-lg p-4 text-xs md:text-sm overflow-x-auto mb-2"><code>{beforeCode}</code></pre>
             </div>
             {/* After */}
@@ -95,10 +96,18 @@ const EvolveSection = () => {
                 <Code className="text-cyan-500 mr-2" />
                 <span className="font-bold text-lg">🚀 Turbocharged by Co-DataScientist</span>
               </div>
-              <div className="text-cyan-600 text-sm mb-2">KPI 🚀 1.00</div>
+              <div className="text-cyan-600 text-2xl font-extrabold mb-2">100% <span className="text-3xl">Accuracy</span></div>
               <pre className="bg-cyan-50 rounded-lg p-4 text-xs md:text-sm overflow-x-auto mb-2"><code>{afterCode}</code></pre>
             </div>
           </div>
+        </div>
+        {/* CTA Button */}
+        <div className="flex justify-center mt-10">
+          <Button asChild className="btn-primary btn-animated-gradient text-2xl px-12 py-8">
+            <a href="https://pypi.org/project/co-datascientist/" target="_blank" rel="noopener noreferrer">
+              Get the research preview
+            </a>
+          </Button>
         </div>
       </div>
     </section>

@@ -67,7 +67,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 text-cyan-400" />
-                <a href="mailto:jonathan.gdalevich@tropifloai.com" className="text-gray-400 hover:text-cyan-400 transition-colors">Contact us</a>
+                <a href="mailto:info@tropiflo.io" className="text-gray-400 hover:text-cyan-400 transition-colors">info@tropiflo.io</a>
               </li>
               <li className="flex items-center">
                 <PhoneCall size={18} className="mr-2 text-cyan-400" />
@@ -76,7 +76,6 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 text-cyan-400" />
                 <span className="text-gray-400">
-                  Tropiflo AI, Inc.<br />
                   US, Delaware<br />
                   Israel, TLV
                 </span>
