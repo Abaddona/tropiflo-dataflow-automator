@@ -73,7 +73,7 @@ const FeaturesSection = () => {
       <div className="container-section">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="section-title">
-            Turnkey <span className="gradient-text">agentic</span> workflow
+            Watch your KPIs <span className="gradient-text">Skyrocket</span>
           </h2>
           <p className="section-subtitle">
             Co-DataScientist reads literature, generates modeling ideas, implements them, and benchmarks – all in parallel and automatically!

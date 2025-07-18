@@ -12,6 +12,7 @@ import TeamSection from '@/components/sections/TeamSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import FaqSection from '@/components/sections/FaqSection';
 import ContactSection from '@/components/sections/ContactSection';
+import SocialProofSection from '@/components/sections/SocialProofSection';
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <HeroSection />
+        <SocialProofSection />
         <FeaturesSection />
         <HowItWorksSection />
         <EvolveSection />

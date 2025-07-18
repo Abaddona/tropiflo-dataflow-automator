@@ -28,27 +28,27 @@ const Navbar = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isScrolled 
-          ? "bg-white/90 backdrop-blur-md shadow-sm py-1" 
-          : "bg-transparent py-2"
+          ? "bg-white/90 backdrop-blur-md shadow-sm py-2" 
+          : "bg-transparent py-3"
       )}
     >
-      <div className="container-section">
+      <div className="container-section py-2 md:py-3">
         <nav className="flex items-center justify-between">
-          <div className="flex items-center space-x-8">
-            <img src="/Logo.png" alt="TropiFlo Logo" className="h-10 w-auto" />
-            <a href="/" className="text-2xl md:text-3xl font-bold text-primary">
+          <div className="flex items-center space-x-1">
+            <img src="/Logo.png" alt="Tropiflo Logo" className="h-20 w-auto filter grayscale brightness-0" />
+            <a href="/" className="text-xl md:text-2xl font-bold text-black">
               <span>Tropi</span>
-              <span className="gradient-text">Flo</span>
+              <span className="text-black">flo</span>
             </a>
           </div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">Features</a>
-            <a href="#pricing" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">Pricing</a>
-            <a href="#team" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">Team</a>
-            <a href="#testimonials" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">Testimonials</a>
-            <a href="#faq" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1">FAQ</a>
+            <a href="#features" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1.5">Features</a>
+            <a href="#pricing" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1.5">Pricing</a>
+            <a href="#team" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1.5">Team</a>
+            <a href="#testimonials" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1.5">Testimonials</a>
+            <a href="#faq" className="text-gray-700 hover:text-primary transition-colors text-lg px-4 py-1.5">FAQ</a>
             <Button asChild className="btn-primary btn-animated-gradient text-lg px-6 py-3">
               <a href="#contact">Get in Touch</a>
             </Button>
@@ -59,6 +59,7 @@ const Navbar = () => {
             <Button 
               variant="ghost" 
               size="icon"
+              className="h-10 w-10"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}

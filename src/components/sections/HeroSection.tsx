@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="flex items-center min-h-[85vh] pt-48 pb-40 md:pt-64 md:pb-52 overflow-hidden">
+    <section className="flex items-center min-h-[calc(100vh-64px)] pt-0 pb-0 md:pt-0 md:pb-0 overflow-hidden">
       <div className="container-section relative">
         {/* Subtle animated gradient background blob */}
         <div
@@ -17,11 +17,11 @@ const HeroSection = () => {
         
         <div className="w-full text-center">
             <h1 className="flex flex-wrap justify-center items-baseline gap-3 text-center">
-              <span className="text-6xl md:text-7xl font-extrabold text-gray-900">Meet the</span>
-              <span className="text-7xl md:text-8xl lg:text-9xl font-extrabold gradient-text animate-gradient-move">Co-Datascientist</span>
+              <span className="text-6xl md:text-7xl font-extrabold text-gray-900 font-dmsans">Meet your</span>
+              <span className="text-7xl md:text-8xl lg:text-9xl font-extrabold gradient-text animate-gradient-move font-dmsans">Co-Datascientist</span>
             </h1>
             <p className="mt-4 text-xl md:text-2xl text-gray-700 font-medium text-center">
-            Built to make you an ML Hero. Co-Datascientist is the best way to build scalalabe AI models.
+            Built to make you an ML Hero. Co-Datascientist is the best way to build scalable AI models.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Button asChild className="btn-primary text-2xl px-12 py-8 btn-animated-gradient">

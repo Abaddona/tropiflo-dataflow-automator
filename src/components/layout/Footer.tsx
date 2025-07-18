@@ -12,11 +12,11 @@ const Footer = () => {
           <div>
             <a href="/" className="text-2xl font-bold text-white">
               <span>Tropi</span>
-              <span className="text-cyan-400">Flo</span>
+              <span className="text-cyan-400">flo</span>
             </a>
             <p className="mt-4 text-gray-400">
               Maximizing ML efficiency through intelligent automation.
-              TropiFlo's Co-Datascientist streamlines your R&D cycle.
+              Tropiflo's Co-Datascientist streamlines your R&D cycle.
             </p>
             {/* <div className="mt-6 flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
@@ -76,7 +76,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 text-cyan-400" />
                 <span className="text-gray-400">
-                  TropiFlo AI, Inc.<br />
+                  Tropiflo AI, Inc.<br />
                   US, Delaware<br />
                   Israel, TLV
                 </span>
@@ -87,7 +87,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} TropiFlo AI, Inc. All rights reserved.
+            &copy; {currentYear} Tropiflo AI, Inc. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 hover:text-cyan-400 text-sm">Terms of Service</a>

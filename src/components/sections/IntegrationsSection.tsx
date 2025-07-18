@@ -10,9 +10,9 @@ const integrations = [
 
 const IntegrationsSection = () => {
   return (
-    <section id="integrations" className="py-20 bg-gray-50">
-      <div className="container-section">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+    <section id="integrations" className="py-8 bg-gray-50">
+      <div className="container-section py-4">
+        <div className="max-w-3xl mx-auto text-center mb-8">
           <h2 className="section-title">
             Integrations
           </h2>
@@ -20,13 +20,13 @@ const IntegrationsSection = () => {
             Connect with your favorite data and cloud platforms. More integrations coming soon!
           </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 items-center justify-center">
           {integrations.map((integration) => (
-            <div key={integration.name} className="flex flex-col items-center p-6 bg-white rounded-xl shadow border border-gray-100">
+            <div key={integration.name} className="flex flex-col items-center p-3 bg-white rounded-xl shadow border border-gray-100">
               <img
                 src={integration.logo}
                 alt={integration.name + ' logo'}
-                className="w-56 h-56 object-contain"
+                className="w-44 h-44 object-contain"
               />
             </div>
           ))}
