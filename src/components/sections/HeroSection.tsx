@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Meet Your <span className="gradient-text">Co-Datascientist</span> for ML Excellence
+              Meet Your <span className="gradient-text">Co-Datascientist 2</span> for ML Excellence
             </h1>
             
             <p className="mt-6 text-lg text-gray-600 md:text-xl max-w-lg mx-auto md:mx-0">
