@@ -9,7 +9,7 @@ const HowItWorksSection = () => {
       description: "Set up your data and ML pipeline requirements with our simple configuration wizard. Co-Datascientist works with your existing infrastructure."
     },
     {
-      title: "Connect the Co-DataScientist",
+      title: "Connect the Co-Datascientist",
       description: "Integrate the Co-Datascientist with your workflow through our API or user-friendly interface. A seamless connection is established in minutes."
     },
     {

@@ -72,7 +72,7 @@ const TestimonialsSection = () => {
             What <span className="gradient-text">Our Users</span> Say
           </h2>
           <p className="section-subtitle">
-            Our users are already enjoying Co-DataScientist's automated ML Engineering workflows—don't be left behind!!!
+            Our users are already enjoying Co-Datascientist's automated ML Engineering workflows—don't be left behind!!!
           </p>
         </div>
 

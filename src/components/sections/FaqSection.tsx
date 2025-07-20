@@ -43,7 +43,7 @@ const FaqSection = () => {
             Frequently Asked <span className="gradient-text">Questions</span>
           </h2>
           <p className="section-subtitle">
-            Everything you need to know about TropiFlo's Co-Datascientist platform and how it can transform your ML workflow.
+            Everything you need to know about Tropiflo's Co-Datascientist platform and how it can transform your ML workflow.
           </p>
         </div>
 

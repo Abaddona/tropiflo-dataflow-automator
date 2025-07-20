@@ -26,7 +26,7 @@ const TeamSection = () => {
             The <span className="gradient-text">Team</span>
           </h2>
           <p className="section-subtitle">
-            Meet the founders behind TropiFlo's revolutionary Co-Datascientist platform.
+            Meet the founders behind Tropiflo's revolutionary Co-Datascientist platform.
           </p>
         </div>
 

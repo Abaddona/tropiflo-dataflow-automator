@@ -94,7 +94,7 @@ const EvolveSection = () => {
             <div className="bg-white rounded-xl shadow-md border border-cyan-200 p-6 flex flex-col">
               <div className="flex items-center mb-4">
                 <Code className="text-cyan-500 mr-2" />
-                <span className="font-bold text-lg">🚀 Turbocharged by Co-DataScientist</span>
+                <span className="font-bold text-lg">🚀 Turbocharged by Co-Datascientist</span>
               </div>
               <div className="text-cyan-600 text-2xl font-extrabold mb-2">100% <span className="text-3xl">Accuracy</span></div>
               <pre className="bg-cyan-50 rounded-lg p-4 text-xs md:text-sm overflow-x-auto mb-2"><code>{afterCode}</code></pre>

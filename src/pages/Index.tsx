@@ -13,6 +13,7 @@ import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import FaqSection from '@/components/sections/FaqSection';
 import ContactSection from '@/components/sections/ContactSection';
 import SocialProofSection from '@/components/sections/SocialProofSection';
+import AccuracyChartSection from '@/components/sections/AccuracyChartSection';
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
         <SocialProofSection />
         <EvolveSection />
         <FeaturesSection />
+        <AccuracyChartSection />
         <HowItWorksSection />
         <IntegrationsSection />
         <PricingSection />

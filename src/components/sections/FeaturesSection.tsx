@@ -76,7 +76,7 @@ const FeaturesSection = () => {
             Watch your KPIs <span className="gradient-text">Skyrocket</span>
           </h2>
           <p className="section-subtitle">
-            Co-DataScientist reads literature, generates modeling ideas, implements them, and benchmarks – all in parallel and automatically!
+            Co-Datascientist reads literature, generates modeling ideas, implements them, and benchmarks – all in parallel and automatically!
           </p>
         </div>
 

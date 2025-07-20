@@ -3,7 +3,7 @@ import React from 'react';
 const companies = [
   // { name: 'MPP&E', logo: '/partners/mppe.png' }, ##TODO ask first!
   { name: 'Tlv', logo: '/partners/hms.png' },
-  { name: 'Tol', logo: '/partners/tol1.svg' },
+  // { name: 'Tol', logo: '/partners/tol1.svg' },
   { name: 'Combinable', logo: '/partners/combinable.png' },
   { name: 'stealth', logo: '/partners/stealth.jpeg' },
 ];
